@@ -1,6 +1,6 @@
 import basic
 while True:
-    text = input('basic > s')
+    text = input('basic > ')
     result, error = basic.run('<std>', text)
 
     if error:
